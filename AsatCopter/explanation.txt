@@ -1,0 +1,6 @@
+Γενικά είναι βολικο να κρατησουμε το ετοιμο ./waf build system tou ardupilot
+Για τον σκοπό αυτόν κρατάμε το ίδιο wscript
+
+Το wscript είναι το αρχείο ρυθμίσεων για το Waf, το σύστημα χτισίματος (build system) που χρησιμοποιεί το ArduPilot για να μετατρέψει τον C++ κώδικα σε εκτελέσιμο (compile & link). Είναι γραμμένο σε Python και λειτουργεί ακριβώς όπως ένα Makefile (στο Make) ή ένα CMakeLists.txt (στο CMake).
+
+Εδώ εχουμε το τοπικο wscript που ενσωματωνει δικα μας rules στο Build
